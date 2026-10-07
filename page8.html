@@ -1,4 +1,6 @@
 <!DOCTYPE html> 
+
+
 <html> 
     <head> 
         <title>My Creative Homepage</title>
@@ -116,6 +118,27 @@
         margin: 15px;
     }
 
+    .page-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    .page-navigation a {
+        background-color: #ff78ad;
+        color: white;
+        padding: 12px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .page-navigation a:hover {
+        background-color: #d94f8a;
+    }
+
     .top {
         text-align: center;
         margin-top: 20px;
@@ -144,281 +167,288 @@
     }
 </style>
 
-</head> 
-    <body>
-        <header id="top">
-<h1>My Creative Homepage</h1>
+</head> <body>
+<header id="top">
 
-<p>HTML & CSS Performance Task</p>
+    <h1>My Creative Homepage</h1>
 
-</header> <main>
-<div class="container">
+    <p>HTML & CSS Performance Task</p>
 
-    <section id="welcome" class="section">
+</header>
 
-        <h2> Welcome! </h2>
+<main>
 
-        <p style="color: #d94f8a; font-weight: bold; font-size: 18px;">
-            Welcome to my creative HTML and CSS homepage!
-        </p>
+    <div class="container">
 
-        <p>
-            This website shows the different HTML and CSS concepts
-            that I have learned and applied to my webpage.
-        </p>
+        <section id="welcome" class="section">
 
-    </section>
+            <h2>Welcome!</h2>
 
-    <section class="section">
+            <p style="color: #d94f8a; font-weight: bold; font-size: 18px;">
+                Welcome to my creative HTML and CSS homepage!
+            </p>
 
-        <h2> Table of Contents</h2>
+            <p>
+                This website shows the different HTML and CSS concepts
+                that I have learned and applied to my webpage.
+            </p>
 
-        <div class="toc">
+        </section>
+
+        <section class="section">
+
+            <h2>Table of Contents</h2>
+
+            <div class="toc">
+
+                <ol>
+
+                    <li>
+                        <a href="#sectioning">
+                            HTML Sectioning
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#css-types">
+                            3 Types of CSS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#selectors">
+                            CSS Selectors
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#border">
+                            CSS Border
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#background">
+                            CSS Background
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#box-model">
+                            CSS Box Model
+                        </a>
+                    </li>
+
+                </ol>
+
+            </div>
+
+        </section>
+
+        <section id="sectioning" class="section">
+
+            <h2>1. HTML Sectioning</h2>
+
+            <p>
+                HTML sectioning organizes a webpage into different
+                meaningful parts. Examples include header, main,
+                section, article, and footer.
+            </p>
+
+        </section>
+
+        <section id="css-types" class="section">
+
+            <h2>2. 3 Types of CSS</h2>
+
+            <h3>Inline CSS</h3>
+
+            <p>
+                CSS written directly inside an HTML element using
+                the style attribute.
+            </p>
+
+            <h3>Internal CSS</h3>
+
+            <p>
+                CSS written inside the &lt;style&gt; tag of an HTML file.
+            </p>
+
+            <h3>External CSS</h3>
+
+            <p>
+                CSS written in a separate CSS file and connected to
+                HTML using the &lt;link&gt; tag.
+            </p>
+
+        </section>
+
+        <section id="selectors" class="section">
+
+            <h2>3. CSS Selectors</h2>
+
+            <p>
+                CSS selectors are used to choose HTML elements
+                that will be styled.
+            </p>
+
+            <ul>
+
+                <li>
+                    <strong>Element Selector</strong> – selects elements
+                    such as body, p, h1, and h2.
+                </li>
+
+                <li>
+                    <strong>Class Selector</strong> – uses a class such
+                    as .section.
+                </li>
+
+                <li>
+                    <strong>ID Selector</strong> – uses an ID such
+                    as #welcome.
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section id="border" class="section">
+
+            <h2>4. CSS Border</h2>
+
+            <p>
+                CSS borders create an outline around an HTML element.
+                Borders can have different colors, widths, and styles.
+            </p>
+
+            <p>
+                This webpage uses solid, dashed, double, and dotted
+                borders as part of its design.
+            </p>
+
+        </section>
+
+        <section id="background" class="section">
+
+            <h2>5. CSS Background</h2>
+
+            <p>
+                CSS backgrounds can be used to add colors, gradients,
+                or images behind HTML elements.
+            </p>
+
+            <p>
+                This homepage uses different shades of pink and
+                gradients to create a soft and creative appearance.
+            </p>
+
+        </section>
+
+        <section id="box-model" class="section">
+
+            <h2>6. CSS Box Model</h2>
+
+            <p>
+                The CSS Box Model consists of four main parts:
+            </p>
+
+            <ul>
+
+                <li>
+                    <strong>Content</strong> – the actual information
+                </li>
+
+                <li>
+                    <strong>Padding</strong> – space around the content
+                </li>
+
+                <li>
+                    <strong>Border</strong> – outline around the element
+                </li>
+
+                <li>
+                    <strong>Margin</strong> – space outside the border
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="section activities">
+
+            <h2>My Previous Activities</h2>
+
+            <p>
+                Click the links below to visit my previous webpages:
+            </p>
 
             <ol>
 
                 <li>
-                    <a href="#sectioning">
-                        HTML Sectioning
+                    <a href="https://zeiruhi13-lab.github.io/zpt./">
+                        Homepage
                     </a>
                 </li>
 
                 <li>
-                    <a href="#css-types">
-                        3 Types of CSS
+                    <a href="https://zeiruhi13-lab.github.io/zpt./page2.html">
+                        Page 2
                     </a>
                 </li>
 
                 <li>
-                    <a href="#selectors">
-                        CSS Selectors
+                    <a href="https://zeiruhi13-lab.github.io/zpt./page4.html">
+                        Page 4
                     </a>
                 </li>
 
                 <li>
-                    <a href="#border">
-                        CSS Border
+                    <a href="https://zeiruhi13-lab.github.io/zpt./page5.html">
+                        Page 5
                     </a>
                 </li>
 
                 <li>
-                    <a href="#background">
-                        CSS Background
+                    <a href="https://zeiruhi13-lab.github.io/zpt./page6.html">
+                        Page 6
                     </a>
                 </li>
 
                 <li>
-                    <a href="#box-model">
-                        CSS Box Model
+                    <a href="https://zeiruhi13-lab.github.io/zpt./page7.html">
+                        Page 7
                     </a>
                 </li>
 
             </ol>
 
+        </section>
+
+        <div class="page-navigation">
+
+            <a href="https://zeiruhi13-lab.github.io/zpt./page6.html">
+                ← Previous Page
+            </a>
+
+            <a href="https://zeiruhi13-lab.github.io/zpt./page7.html">
+                Next Page →
+            </a>
+
         </div>
 
-    </section>
+        <div class="top">
 
-    <section id="sectioning" class="section">
+            <a href="#top">⬆ Back to Top</a>
 
-        <h2>1. HTML Sectioning</h2>
-
-        <p>
-            HTML sectioning organizes a webpage into different
-            meaningful parts. Examples include header, main,
-            section, article, and footer.
-        </p>
-
-    </section>
-
-    <section id="css-types" class="section">
-
-        <h2> 2. 3 Types of CSS</h2>
-
-        <h3>Inline CSS</h3>
-
-        <p>
-            CSS written directly inside an HTML element using
-            the style attribute.
-        </p>
-
-        <h3>Internal CSS</h3>
-
-        <p>
-            CSS written inside the &lt;style&gt; tag of an HTML file.
-        </p>
-
-        <h3>External CSS</h3>
-
-        <p>
-            CSS written in a separate CSS file and connected to
-            HTML using the &lt;link&gt; tag.
-        </p>
-
-    </section>
-
-    <section id="selectors" class="section">
-
-        <h2> 3. CSS Selectors</h2>
-
-        <p>
-            CSS selectors are used to choose HTML elements
-            that will be styled.
-        </p>
-
-        <ul>
-
-            <li>
-                <strong>Element Selector</strong> – selects elements
-                such as body, p, h1, and h2.
-            </li>
-
-            <li>
-                <strong>Class Selector</strong> – uses a class such
-                as .section.
-            </li>
-
-            <li>
-                <strong>ID Selector</strong> – uses an ID such
-                as #welcome.
-            </li>
-
-        </ul>
-
-    </section>
-
-    <section id="border" class="section">
-
-        <h2>4. CSS Border</h2>
-
-        <p>
-            CSS borders create an outline around an HTML element.
-            Borders can have different colors, widths, and styles.
-        </p>
-
-        <p>
-            This webpage uses solid, dashed, double, and dotted
-            borders as part of its design.
-        </p>
-
-    </section>
-
-    <section id="background" class="section">
-
-        <h2> 5. CSS Background</h2>
-
-        <p>
-            CSS backgrounds can be used to add colors, gradients,
-            or images behind HTML elements.
-        </p>
-
-        <p>
-            This homepage uses different shades of pink and
-            gradients to create a soft and creative appearance.
-        </p>
-
-    </section>
-
-    <section id="box-model" class="section">
-
-        <h2> 6. CSS Box Model</h2>
-
-        <p>
-            The CSS Box Model consists of four main parts:
-        </p>
-
-        <ul>
-
-            <li>
-                <strong>Content</strong> – the actual information
-            </li>
-
-            <li>
-                <strong>Padding</strong> – space around the content
-            </li>
-
-            <li>
-                <strong>Border</strong> – outline around the element
-            </li>
-
-            <li>
-                <strong>Margin</strong> – space outside the border
-            </li>
-
-        </ul>
-
-    </section>
-
-    <section class="section activities">
-
-        <h2> My Previous Activities</h2>
-
-        <p>
-            Click the links below to visit my previous webpages:
-        </p>
-
-        <ol>
-
-            <li>
-                <a href="https://zeiruhi13-lab.github.io/zpt./">
-                     Homepage
-                </a>
-            </li>
-
-            <li>
-                <a href="https://zeiruhi13-lab.github.io/zpt./page2.html">
-                     Page 2
-                </a>
-            </li>
-
-            <li>
-                <a href="https://zeiruhi13-lab.github.io/zpt./page4.html">
-                     Page 4
-                </a>
-            </li>
-
-            <li>
-                <a href="https://zeiruhi13-lab.github.io/zpt./page5.html">
-                     Page 5
-                </a>
-            </li>
-
-            <li>
-                <a href="https://zeiruhi13-lab.github.io/zpt./page6.html">
-                     Page 6
-                </a>
-            </li>
-
-            <li>
-                <a href="https://zeiruhi13-lab.github.io/zpt./page7.html">
-                     Page 7
-                </a>
-            </li>
-
-        </ol>
-
-    </section>
-
-    <div class="page-navigation">
-
-        <a href="https://zeiruhi13-lab.github.io/zpt./page6.html">← Previous Page</a>
-
-        <a href="https://zeiruhi13-lab.github.io/zpt./page7.html">Next Page →</a>
+        </div>
 
     </div>
 
-    <div class="top">
+</main>
 
-        <a href="#top">⬆ Back to Top</a>
+<footer>
+</footer>
 
-    </div>
-
-</div>
-
-</main> 
-        <footer> 
-        </footer> 
-        
-    </body> 
-    
+</body> 
 </html>
