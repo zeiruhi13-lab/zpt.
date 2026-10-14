@@ -1,110 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buwan ng Wika</title>
 
-    <style>
-
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        background-color: #ffd6e7;
-        color: #5c2445;
-    }
-
-    .page-navigation {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
-
-    .page-navigation a {
-        background-color: #ff78ad;
-        color: white;
-        padding: 12px 22px;
-        border-radius: 20px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .page-navigation a:hover {
-        background-color: #d94f8a;
-    }
-
-</style>
-
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #FFF8DC;
+            color: #5c2445;
+        }
+
+        header {
+            background-color: #ffd6e7;
+            color: darkred;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 4px solid darkred;
+        }
+
+        header h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .page-navigation {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 30px 0;
+        }
+
+        .page-navigation a {
+            background-color: #ff78ad;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .page-navigation a:hover {
+            background-color: #d94f8a;
+        }
+
+        footer {
+            background-color: #5c2445;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+    </style>
 </head>
 
-<body style="background-color:#FFF8DC; font-family:Arial, sans-serif;">
+<body>
 
-    <!-- Heading -->
-    <h1 style="text-align:center; color:darkred; font-family:'Pacifico', cursive; font-size:50px;">
-        BUWAN NG WIKA 2026
-    </h1>
+    <header>
+        <h1>BUWAN NG WIKA 2026</h1>
+        <p>Wikang Filipino: Yaman ng Ating Pagkakakilanlan</p>
+    </header>
 
-    <h2 style="color:green;">Tema</h2>
+    <main>
 
-    <p style="font-size:18px;">
-        Ang <b>Buwan ng Wika</b> ay ipinagdiriwang tuwing buwan ng Agosto upang
-        ipakita ang pagmamahal at pagpapahalaga sa ating sariling wika.
-        Mahalaga ang wikang Filipino dahil ito ang nagbubuklod sa mga Pilipino.
-    </p>
+        <h2 style="color:green;">Tema</h2>
 
-    <hr>
+        <p style="font-size:18px;">
+            Ang <b>Buwan ng Wika</b> ay ipinagdiriwang tuwing buwan ng Agosto upang
+            ipakita ang pagmamahal at pagpapahalaga sa ating sariling wika.
+            Mahalaga ang wikang Filipino dahil ito ang nagbubuklod sa mga Pilipino.
+        </p>
 
-    <!-- One Image Only -->
-    <h2 style="color:blue;">Larawan</h2>
+        <hr>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"
-         alt="Bandila ng Pilipinas"
-         width="300">
+        <h2 style="color:blue;">Larawan</h2>
 
-    <hr>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"
+             alt="Bandila ng Pilipinas"
+             width="300">
 
-    <h2 style="color:purple;">Bakit Mahalaga ang Wikang Filipino?</h2>
+        <hr>
 
-    <p>
-        <strong>✔ Nagkakaisa</strong> ang mga Pilipino sa pamamagitan ng ating wika.<br>
-        <em>✔ Napapahalagahan</em> natin ang ating kultura.<br>
-        <mark>✔ Naipapasa</mark> ang ating tradisyon sa susunod na henerasyon.<br>
-        <u>✔ Ipinagmamalaki</u> natin ang ating pagkakakilanlan.
-    </p>
+        <h2 style="color:purple;">Bakit Mahalaga ang Wikang Filipino?</h2>
 
-    <hr>
+        <p>
+            <strong>✔ Nagkakaisa</strong> ang mga Pilipino sa pamamagitan ng ating wika.<br>
+            <em>✔ Napapahalagahan</em> natin ang ating kultura.<br>
+            <mark>✔ Naipapasa</mark> ang ating tradisyon sa susunod na henerasyon.<br>
+            <u>✔ Ipinagmamalaki</u> natin ang ating pagkakakilanlan.
+        </p>
 
-    <h2 style="color:brown;">Mga Gawain sa Buwan ng Wika</h2>
+        <hr>
 
-    <ul>
-        <li>Poster Making Contest</li>
-        <li>Sabayang Pagbigkas</li>
-        <li>Balagtasan</li>
-        <li>Pag-awit ng Kundiman</li>
-        <li>Pagsusuot ng Barong at Baro't Saya</li>
-    </ul>
+        <h2 style="color:brown;">Mga Gawain sa Buwan ng Wika</h2>
 
-    <hr>
+        <ul>
+            <li>Poster Making Contest</li>
+            <li>Sabayang Pagbigkas</li>
+            <li>Balagtasan</li>
+            <li>Pag-awit ng Kundiman</li>
+            <li>Pagsusuot ng Barong at Baro't Saya</li>
+        </ul>
 
-    <h2 style="color:darkorange;">Kasabihan</h2>
+        <hr>
 
-    <p style="font-size:20px;">
-        <i>"Ang hindi marunong magmahal sa sariling wika ay higit pa sa hayop at malansang isda."</i>
-        <br><br>
-        — Jose Rizal
-    </p>
+        <h2 style="color:darkorange;">Kasabihan</h2>
 
-    <hr>
+        <p style="font-size:20px;">
+            <i>"Ang hindi marunong magmahal sa sariling wika ay higit pa sa hayop at malansang isda."</i>
+            <br><br>
+            — Jose Rizal
+        </p>
 
-    <h3 style="text-align:center; color:red;">
-        Ipagmalaki ang Wikang Filipino!
-    </h3>
+        <hr>
 
-    <div>
-<div class="page-navigation">
-    <a href="https://zeiruhi13-lab.github.io/zpt./page2.html">← Previous Page</a>
-    <a href="https://zeiruhi13-lab.github.io/zpt./page4.html">Next Page →</a>
-</div>
+        <h3 style="text-align:center; color:red;">
+            Ipagmalaki ang Wikang Filipino!
+        </h3>
+
+        <div class="page-navigation">
+            <a href="https://zeiruhi13-lab.github.io/zpt./page2.html">
+                ← Previous Page
+            </a>
+
+            <a href="https://zeiruhi13-lab.github.io/zpt./page4.html">
+                Next Page →
+            </a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p><strong>BUWAN NG WIKA 2026</strong></p>
+        <p>Mahalin, Pagyamanin, at Ipagmalaki ang Wikang Filipino!</p>
+        <p>&copy; 2026 Buwan ng Wika</p>
+    </footer>
 
 </body>
 </html>
