@@ -1,89 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Moana</title>
+
 <style>
 body {
-background-color: #bde7f5;
-background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-font-family: Arial, sans-serif;
-color: #174a5b;
-margin: 0;
+    background-color: #bde7f5;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #174a5b;
+    margin: 0;
 }
-   .page-navigation {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
-
-    .page-navigation a {
-        background-color: #ff78ad;
-        color: white;
-        padding: 12px 22px;
-        border-radius: 20px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    .page-navigation a:hover {
-        background-color: #d94f8a;
-    }
 
 header {
-background-color: rgba(255, 255, 255, 0.85);
-text-align: center;
-padding: 25px;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    padding: 25px;
+    border-bottom: 5px solid #174a5b;
 }
-h1 {
-font-size: 45px;
-margin: 0;
+
+header h1 {
+    font-size: 45px;
+    margin: 0;
 }
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: #174a5b;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+header nav a:hover {
+    color: #d94f8a;
+}
+
 .container {
-width: 80%;
-margin: 30px auto;
-padding: 25px;
-background-color: rgba(255, 255, 255, 0.9);
-border-radius: 20px;
-text-align: center;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    text-align: center;
 }
+
 img {
-width: 300px;
-border-radius: 15px;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 15px;
 }
+
 p {
-font-size: 18px;
-line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.page-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 30px 20px;
+}
+
+.page-navigation a {
+    background-color: #ff78ad;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-navigation a:hover {
+    background-color: #d94f8a;
+}
+
+footer {
+    background-color: rgba(23, 74, 91, 0.95);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 5px solid #bde7f5;
+}
+
+footer p {
+    margin: 8px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer a:hover {
+    color: #ffb6d2;
+    text-decoration: underline;
 }
 </style>
 </head>
+
 <body>
+
 <header>
-<h1> Moana </h1>
-<p>The ocean is calling!</p>
+    <h1>Moana</h1>
+    <p>The ocean is calling!</p>
+
 </header>
+
 <div class="container">
-<h2>About Moana</h2>
-<img src="https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg" alt="Moana">
-<p>
-Moana is a brave young girl who lives on the island of Motunui.
-She is chosen by the ocean to restore the heart of Te Fiti.
-Along her journey, she meets the demigod Maui and discovers
-her courage, identity, and love for her people.
-</p>
-<h2> Why I Like Moana</h2>
-<p>
-Moana teaches us to be brave, follow our dreams, and never give up
-even when the journey becomes difficult.
-</p>
+
+    <h2>About Moana</h2>
+
+    <img src="https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg"
+         alt="Moana movie poster">
+
+    <p>
+        Moana is a brave young girl who lives on the island of Motunui.
+        She is chosen by the ocean to restore the heart of Te Fiti.
+        Along her journey, she meets the demigod Maui and discovers
+        her courage, identity, and love for her people.
+    </p>
+
+    <h2>Why I Like Moana</h2>
+
+    <p>
+        Moana teaches us to be brave, follow our dreams, and never give up
+        even when the journey becomes difficult.
+    </p>
+
 </div>
 
-  <div class="page-navigation">
-    <a href="https://zeiruhi13-lab.github.io/zpt./page5.html">← Previous Page</a>
-    <a href="https://zeiruhi13-lab.github.io/zpt./page7.html">Next Page →</a>
+<div class="page-navigation">
+    <a href="https://zeiruhi13-lab.github.io/zpt./page5.html">
+        ← Previous Page
+    </a>
+
+    <a href="https://zeiruhi13-lab.github.io/zpt./page7.html">
+        Next Page →
+    </a>
 </div>
+
+<footer>
+    <p><strong>Moana</strong></p>
+    <p>Be Brave, Follow Your Dreams, and Discover Your Way!</p>
+
+    <p> 2026 Moana Website</p>
+</footer>
 
 </body>
 </html>
